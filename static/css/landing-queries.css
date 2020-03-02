@@ -1,0 +1,90 @@
+.hero {
+    background-position: 60% 0;
+}
+
+.header h1 {
+    font-size: 100%;
+}
+
+.header h2 {
+    font-size: 50%;
+}
+
+
+.btn-me {
+    padding: 2px;
+    width: 80px;
+    height: 24px;
+}
+
+@media (min-width: 544px) {
+    .hero {
+        background-position: 50% 0;
+    }
+    
+    .header h1 {
+        font-size: 160%;
+    }
+
+    .header h2 {
+        font-size: 80%;
+    }
+    
+    .btn-me {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        background-position: 30% 0;
+    }
+
+    .header h1 {
+        font-size: 200%;
+    }
+
+    .header h2 {
+        font-size: 100%;
+    }
+
+    .btn-me {
+        width: 140px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero {
+        background-position: 0;
+    }
+    .header h1 {
+        font-size: 300%;
+    }
+
+    .header h2 {
+        font-size: 160%;
+    }
+
+    .btn-me {
+        width: 210px;
+        height: 64px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header h1 {
+        font-size: 320%;
+    }
+
+    .header h2 {
+        font-size: 180%;
+    }
+
+    .btn-me {
+        padding: 8px 10px;
+        height: 78px;
+        width: 240px;
+    }
+}

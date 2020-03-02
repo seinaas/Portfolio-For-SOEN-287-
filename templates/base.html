@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        <title>{% block title %}SEINA ASSADIAN - Portfolio{% endblock %} </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Spartan:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/1efb6421d5.js" crossorigin="anonymous"></script>
+        {% endblock %}
+        <link rel="stylesheet" href="../static/css/landing.css">
+        <link rel="stylesheet" href="../static/css/landing-queries.css">
+    </head>
+
+    <body>
+        {% block navbar %}
+            <nav class="navbar navbar-expand-md fixed-top">
+                <a class="navbar-brand" href="/">seina assadian</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-default" id="navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/projects">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">work with me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        {% endblock %}
+
+        {% block content %}
+            <div class="main-body">
+                <section class="hero" id="section1">
+                    <div class="header">
+                        <h1>hi, i'm seina</h1>
+                        <h1>welcome to my website</h1>
+                        <div class="btn-me"><a href="/about"><h2>that's me<i class="fas fa-arrow-right"></i></h2></a></div>
+                    </div>
+                    <a class="btn-scroll" href="#section2"><i class="fas fa-sort-down"></i></a>
+                </section>
+                <section id="section2">
+                    <div class="container text-center short-desc ">
+                        <div class="row justify-content-md-center">
+                            <p>i'm a software engineering student living in</p>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <div class="montreal-container"><img id="montreal" src="../static/img/montreal.png"><p>Montreal, QC</p></div>
+                        </div>
+                        <div class="desc-love">
+                            <p>i love <i class="fas fa-flask"></i> creating, <i class="fas fa-pencil-alt"></i> designing, and <i class="fas fa-cog"></i> inventing</p>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <p>my passions include — but are not limited to — technology, art, music, and photography, although i don't have much experience in the latter</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        {% endblock %}
+        
+        {% block footer %}
+            <footer class="page-footer">
+                <div class="container text-center">
+                    <div class="row justify-content-md-center" style="margin-bottom: 10px">Thanks for visiting!</div>
+                    <div class="row justify-content-md-center" style="margin-bottom: 5px;">More of me:</div>
+                    <div class="row justify-content-md-center">
+                        <a href="https://github.com/seinaas" target="_blank"><i class="fab fa-github" id="logo-github"></i></a>
+                        <a href="https://www.linkedin.com/in/seinaassadian/" target="_blank"><i class="fab fa-linkedin" id="logo-linkedin"></i></a>
+                        <a href="https://devpost.com/seinaas" target="_blank"><i class="fas fa-code" id="logo-devpost"></i></a>
+                    </div>
+                </div>
+                <div class="footer-copyright text-center">© 2020 Copyright - Seina Assadian</div>
+            </footer> 
+        {% endblock %}
+        
+    </body>
+</html>

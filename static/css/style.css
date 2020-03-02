@@ -1,0 +1,79 @@
+body {
+    font-family: 'Spartan', ;
+    color: rgb(40, 40, 40);
+    overflow-x: hidden;
+    font-size: 22px;
+}
+
+a {
+    color: white;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: rgb(170, 170, 170);
+}
+
+a:active {
+    color: white;
+}
+
+i {
+    margin: 5px;
+    color: white;
+    font-size: 200%;
+
+    transition: color 0.2s;
+}
+
+.btn-scroll {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,0);
+
+    animation: float 1.5s alternate infinite ease-in-out;
+}
+
+@keyframes float {
+    to { transform: translate(-50%, 10px);}
+}
+
+/**NAVBAR**/
+
+.navbar-expand-md {
+    mix-blend-mode: difference;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-size: 200%;
+    font-weight: 300;
+}
+
+/**FOOTER**/
+.page-footer {
+    width: 100vw;
+    padding-top: 20px;
+    color: white;
+    background-color: rgb(80,80,80);
+    box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(50, 50, 50);
+}
+
+#logo-github:hover {
+    color: #333;
+}
+
+#logo-linkedin:hover {
+    color: #0e76a8
+}
+
+#logo-devpost:hover {
+    color: rgb(23, 50, 90);
+}
