@@ -2,7 +2,45 @@
 
 {% block title %}SEINA ASSADIAN - About{% endblock %}
 
-{% block head %} 
-    {{ super() }}
-    <link rel="stylesheet" href="../static/css/about.css">
+{% block customstyle %}
+<link rel="stylesheet" href="../static/css/about.css">
+{% endblock %}
+
+{% block content %}
+<div class="about">
+    <section id="section1">
+        <div class="row justify-content-md-center">
+            <h1>a bit about myself</h1>
+        </div>
+        <div class="container">
+            <div class="row justify-content-md-center profile-container">
+                    <div class="profile">
+                        <img src="../static/img/profile.png" alt="Seina Assadian">
+                    </div>
+                
+            </div>
+            <div class="description row justify-content-md-center">
+                <div class="col-md ">
+                    <p>
+                        my name is seina assadian. i was born in Montreal, Quebec, Canada on the 22nd of may, 2000.
+                        growing up, i always had an interest in technology. considering my dad is a software engineering,
+                        i feel like that interest came from him. i started teaching myself programming in elemntary school —
+                        during the 6th grade science fair to be exact. immediately, i was hooked. as a kid, i loved video games.
+                        in fact, i could barely keep my eyes off a screen. so, finding out that programming offered the possibility
+                        to create my own games, it was a dream come true. i kept teaching myself programming through tutorials i
+                        found online until high school, where i took my first programming course. from then on, i decided i wanted
+                        to continue my education in this field. in cegep, i studied computer science and maths, and going on to university
+                        i began my bachelors of software engineering.
+                    </p>
+                    <p>
+                        while technology and programming has always been one of my biggest passions, art and music have always held
+                        a special place in my heart. i enjoy playing and listening to music, drawing, designing and creating. in fact,
+                        if not for software engineering i would have probably gone into a design program.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+</div>
 {% endblock %}

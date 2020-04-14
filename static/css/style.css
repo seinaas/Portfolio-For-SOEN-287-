@@ -1,8 +1,13 @@
+html {
+    width: 100vw;
+}
+
 body {
     font-family: 'Spartan', ;
     color: rgb(40, 40, 40);
     overflow-x: hidden;
     font-size: 22px;
+    width: 100vw;
 }
 
 a {
@@ -24,6 +29,10 @@ i {
     font-size: 200%;
 
     transition: color 0.2s;
+}
+
+h1 {
+    font-weight: 300;
 }
 
 .btn-scroll {
@@ -58,6 +67,7 @@ i {
     color: white;
     background-color: rgb(80,80,80);
     box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.3);
+    font-size: 70%;
 }
 
 .footer-copyright {
@@ -66,14 +76,14 @@ i {
     background-color: rgb(50, 50, 50);
 }
 
-#logo-github:hover {
+.logo-github:hover {
     color: #333;
 }
 
-#logo-linkedin:hover {
+.logo-linkedin:hover {
     color: #0e76a8
 }
 
-#logo-devpost:hover {
+.logo-devpost:hover {
     color: rgb(23, 50, 90);
 }

@@ -1,0 +1,79 @@
+#section1 {
+    height: 100vh;
+    background-color: rgb(20,20,20);
+    color: white;   
+}
+
+#section1 h1 {
+    margin-top: 120px;
+}
+
+.contact-title {
+    margin-bottom: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    font-size: 100%;
+}
+
+.platforms {
+    text-align: center;
+}
+
+.platforms h3 {
+    margin-bottom: 20px;
+}
+
+.platforms a {
+    text-decoration: none;
+}
+
+.platforms a:hover {
+    color: white;
+}
+
+#github:hover a,
+#github:hover i{
+    color: #333;
+}
+
+#linkedin:hover a,
+#linkedin:hover i {
+    color: #0e76a8;
+}
+
+#devpost:hover a,
+#devpost:hover i {
+    color: rgb(23, 50, 90);
+}
+
+#resume {
+    margin-top: 50px;
+}
+
+#resume h3 {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0;
+}
+
+#resume i {
+    display: inline-block;
+    text-align: center;
+    font-size: 200%;
+}
+
+#resume a:hover h3,
+#resume a:hover i {
+    color: #aaa;
+}

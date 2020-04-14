@@ -1,0 +1,45 @@
+#section1 {
+    padding: 50px;
+    color: white;
+    background-color: rgb(20,20,20);
+}
+
+#section1 h1 {
+    margin-top: 120px;
+    font-weight: 100;
+}
+
+#section1 h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    margin: auto;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+}
+
+.description {
+    margin-top: 50px;
+}
+
+.description p {
+    text-align: justify;
+    padding: 20px;
+}
+
+.profile {
+    border: 10px solid white;
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 5%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img {
+    position: absolute;
+    width: 120%;
+    left: -10%;
+    top: -15%;
+}

@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}SEINA ASSADIAN - Projects{% endblock %}
+
+{% block customstyle %}
+<link rel="stylesheet" href="../static/css/projects.css">
+<link rel="stylesheet" href="../static/css/projects-queries.css">
+{% endblock %}
+
+{% block content %}
+<div class="projects">
+    <section id="section1">
+        <ul class="projects-list">
+            <li id="bloom">
+                <div class="row justify-content-md-center">
+                    <h1 class="project-title">bloom.</h1>
+                </div>
+                <div class="row">
+                    <div class="project-pics col-md-6">
+                        <img src="../static/img/bloom-1.svg" alt="Bloom">
+                        <img src="../static/img/bloom-2.svg" alt="Bloom">
+                        <img src="../static/img/bloom-3.svg" alt="Bloom">
+                    </div>
+                    <div class="project-description col-md-6">
+                        <p>
+                            bloom. is a collaborative tool made for students to facilitate teamwork in different situations.
+                            it provides tools to aid students in completing tasks such as group projects, oral presentation, or lab 
+                            reports. it is a live chat application to simplify management and coordination without bleeding into the realm
+                            of social media.
+                        </p>
+                    </div>
+                </div>
+                <a class="btn-scroll" href="#review-bot"><i class="fas fa-sort-down"></i></a>
+            </li>
+            <li id="review-bot">
+                <div class="row justify-content-md-center">
+                    <h1 class="project-title">review bot</h1>
+                </div>
+                <div class="row">
+                    <div class="project-pics col-md-6">
+                        <img src="../static/img/review-bot-1.png" alt="Review Bot">
+                        <img src="../static/img/review-bot-2.png" alt="Review Bot">
+                        <img src="../static/img/review-bot-3.png" alt="Review Bot">
+                    </div>
+                    <div class="project-description col-md-6">
+                        <p>
+                            review bot is a tool that gathers information in regards to companies and displays
+                            the data in different formats. it collects user reviews and sorts them to display company
+                            feedback and creates graphs and tables to showcase different trends and aspects of the collected
+                            information.
+                        </p>
+                    </div>
+                </div>
+                <a class="btn-scroll" href="#drizzle"><i class="fas fa-sort-down"></i></a>
+            </li>
+            <li id="drizzle">
+                <div class="row justify-content-md-center">
+                    <h1 class="project-title">drizzle</h1>
+                </div>
+                <div class="row">
+                    <div class="project-pics col-md-6">
+                        <img src="../static/img/drizzle-1.png" alt="Drizzle">
+                        <img src="../static/img/drizzle-2.png" alt="Drizzle">
+                        <img src="../static/img/drizzle-3.png" alt="Drizzle">
+                    </div>
+                    <div class="project-description col-md-6">
+                        <p>
+                            drizzle is a music-based web app. its purpose is to introduce new artists and genres
+                            to users based on their music preferences. it provides the user with an initial collection
+                            of songs. the user decides which "droplet" to keep and which to discard. once they deem
+                            their selections finished, the program uses AI to generate a playlist according to the user's 
+                            particular tastes.
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+</div>
+{% endblock %}

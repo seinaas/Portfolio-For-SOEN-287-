@@ -8,20 +8,27 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="../static/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Spartan:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+        <script>
+           window.jQuery || document.write('<script src="../static/js/jquery.min.js"><\/script>');
+        </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/1efb6421d5.js" crossorigin="anonymous"></script>
         {% endblock %}
+
+        {% block customstyle %}
         <link rel="stylesheet" href="../static/css/landing.css">
         <link rel="stylesheet" href="../static/css/landing-queries.css">
+        {% endblock %}
     </head>
 
     <body>
         {% block navbar %}
             <nav class="navbar navbar-expand-md fixed-top">
                 <a class="navbar-brand" href="/">seina assadian</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse navbar-default" id="navbar-collapse">
@@ -59,10 +66,10 @@
                             <div class="montreal-container"><img id="montreal" src="../static/img/montreal.png"><p>Montreal, QC</p></div>
                         </div>
                         <div class="desc-love">
-                            <p>i love <i class="fas fa-flask"></i> creating, <i class="fas fa-pencil-alt"></i> designing, and <i class="fas fa-cog"></i> inventing</p>
+                            <p>i enjoy <i class="fas fa-flask"></i> creating, <i class="fas fa-pencil-alt"></i> designing, and <i class="fas fa-cog"></i> inventing</p>
                         </div>
                         <div class="row justify-content-md-center">
-                            <p>my passions include — but are not limited to — technology, art, music, and photography, although i don't have much experience in the latter</p>
+                            <p>my passions include technology, art, and music</p>
                         </div>
                     </div>
                 </section>
@@ -75,9 +82,9 @@
                     <div class="row justify-content-md-center" style="margin-bottom: 10px">Thanks for visiting!</div>
                     <div class="row justify-content-md-center" style="margin-bottom: 5px;">More of me:</div>
                     <div class="row justify-content-md-center">
-                        <a href="https://github.com/seinaas" target="_blank"><i class="fab fa-github" id="logo-github"></i></a>
-                        <a href="https://www.linkedin.com/in/seinaassadian/" target="_blank"><i class="fab fa-linkedin" id="logo-linkedin"></i></a>
-                        <a href="https://devpost.com/seinaas" target="_blank"><i class="fas fa-code" id="logo-devpost"></i></a>
+                        <a href="https://github.com/seinaas" target="_blank"><i class="fab fa-github logo-github"></i></a>
+                        <a href="https://www.linkedin.com/in/seinaassadian/" target="_blank"><i class="fab fa-linkedin logo-linkedin"></i></a>
+                        <a href="https://devpost.com/seinaas" target="_blank"><i class="fas fa-code logo-devpost    "></i></a>
                     </div>
                 </div>
                 <div class="footer-copyright text-center">© 2020 Copyright - Seina Assadian</div>

@@ -15,7 +15,6 @@
 
 .header h1 {
     margin: 0;
-    font-weight: 300;
 }
 
 .header h2 {
@@ -80,18 +79,21 @@ div.btn-me:hover::after {
 #section2 {
     color: white;
     background-color: rgb(20,20,20);
-    height: 100vh;
     overflow: auto;
 }
 
 .short-desc {
     font-weight: 500;
     font-size: 140%;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .short-desc i {
     font-size: 100%;
+}
+
+.short-desc:last-child {
+    margin-bottom: 150px;
 }
 
 .montreal-container {

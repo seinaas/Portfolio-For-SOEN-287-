@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "venv\\Scripts\\python.exe"
+    "python.pythonPath": "c:\\Users\\assad\\OneDrive\\Desktop\\School\\Concordia\\Winter 2020\\SOEN 287\\Portfolio\\venv\\Scripts\\python.exe",
+    "python.linting.pep8Enabled": true,
+  "python.linting.pylintPath": "c:\\Users\\assad\\OneDrive\\Desktop\\School\\Concordia\\Winter 2020\\SOEN 287\\Portfolio\\venv\\Scripts\\pylint.exe",
+  "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
+  "python.linting.pylintEnabled": true
 }
